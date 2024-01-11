@@ -1,0 +1,23 @@
+#showcase {
+  height: 100vh;
+  background-image: url(img/fitness_main.jpg);
+}
+
+.showcase_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.showcase_content h1 {
+  line-height: 1.5;
+  font-size: 55px;
+}
+
+@media (max-width: 992px) {
+  .showcase_content h1 {
+    font-size: 35px;
+  }
+}
